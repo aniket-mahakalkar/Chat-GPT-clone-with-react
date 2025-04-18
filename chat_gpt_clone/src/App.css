@@ -65,4 +65,77 @@ body {
  margin: 2.5rem;
 }
 
+.addBtn {
 
+  height: 2rem;
+  padding-right: 1rem;
+}
+
+midBtn {
+
+  background: #5A4BFF;
+  border:  none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+
+
+.query {
+
+  display: flex;
+  align-items: center;
+  background: transparent;
+  justify-content: center;
+  color: rgba(222,222,222,1);
+  padding: 1.5rem;
+  border:  1px solid;
+  border-radius: 0.5 rem;
+  width: 25rem;
+  margin: 1rem auto;
+
+}
+
+.query>img {
+
+  margin-right: 2rem;
+  object-fit: cover;
+  height: 1.7rem;
+
+}
+
+.lowerSide{
+
+  padding: 2rem;
+}
+
+.listItems {
+
+  margin:0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.listitemsImg {
+
+  margin: 1rem;
+  padding-right: 1rem;
+}
+
+.listItems:nth-child(1)>.listitemsImg {
+
+  margin-right: 0.5 rem;
+} 
+
+.listItems:nth-child(3)>.listitemsImg {
+
+  margin-right: 0.75 rem;
+} 
